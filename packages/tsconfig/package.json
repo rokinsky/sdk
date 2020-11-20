@@ -1,0 +1,36 @@
+{
+  "name": "@rokinsky/tsconfig",
+  "version": "1.0.0",
+  "description": "Basic TypeScript configuration package",
+  "keywords": [
+    "sdk",
+    "strict",
+    "typings",
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ],
+  "homepage": "https://github.com/rokinsky/sdk/tree/master/packages/tsconfig#readme",
+  "bugs": {
+    "url": "https://github.com/rokinsky/sdk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rokinsky/sdk.git"
+  },
+  "license": "MIT",
+  "author": "Aleksander Sorokin <ankezy@gmail.com>",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "typescript": ">=4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
