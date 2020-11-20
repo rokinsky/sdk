@@ -1,0 +1,8 @@
+.npmrc
+*.iml
+*.log
+.idea
+**/lib/**
+**/dist/**
+**/.cache**/
+**/node_modules**/
