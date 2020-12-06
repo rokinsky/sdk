@@ -1459,10 +1459,10 @@
   resolved "https://registry.yarnpkg.com/@rokinsky/prettier-config/-/prettier-config-1.0.0.tgz#41a14dd418f54c467d3ece5fb990a195c05bac8a"
   integrity sha512-8mtMv2wgTUAMH29Tg9Bb3kfpvKuqTg9WzNRg3E/5CwG7Tew56jAM47tscRr9LthTGiC9jgLeWwc6HXqYJQi6sg==
 
-"@rokinsky/tsconfig@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@rokinsky/tsconfig/-/tsconfig-1.0.0.tgz#5ddeacbcf1fe68d3e6064403f8bb1ee225a13e5e"
-  integrity sha512-I55L8Abr2WKT0ZvBhGt9rJl+IiX31eIUZ3GUoUg9AlcldOy4YMfipPKHbVZQyxS96MD3N3vh/Tu7qtMt6t96gA==
+"@rokinsky/tsconfig@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@rokinsky/tsconfig/-/tsconfig-1.1.0.tgz#d8d15f4b07834c7a4d5b182d4db50bb72c777898"
+  integrity sha512-7wXIXPmlBIpewq/YJBh7oriPLRmU0U/+AOKosLABsWo6NHap/ISp8LXwwdJUFQ+5IV172M0oemLatNm4T+zj+Q==
 
 "@rollup/plugin-alias@^3.0.1":
   version "3.1.1"

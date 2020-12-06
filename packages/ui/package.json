@@ -46,7 +46,8 @@
   "devDependencies": {
     "@rokinsky/eslint-config": "^1.0.0",
     "@rokinsky/prettier-config": "^1.0.0",
-    "@rokinsky/tsconfig": "^1.0.0",
+    "@rokinsky/tsconfig": "^1.1.0",
+    "@testing-library/dom": "^7.28.1",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",

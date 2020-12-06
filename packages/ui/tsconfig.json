@@ -4,14 +4,10 @@
     "baseUrl": ".",
     "outDir": "dist",
     "jsx": "react",
-    "sourceMap": true,
-    "declaration": true,
     "noImplicitReturns": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "allowSyntheticDefaultImports": true,
-    "noFallthroughCasesInSwitch": true
   },
   "include": [
     "src"
