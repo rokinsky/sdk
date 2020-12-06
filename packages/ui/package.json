@@ -1,0 +1,73 @@
+{
+  "name": "@rokinsky/ui",
+  "version": "1.0.0",
+  "description": "Basic UI React library",
+  "sideEffects": false,
+  "keywords": [
+    "sdk",
+    "strict",
+    "typings",
+    "typescript",
+    "ts",
+    "react",
+    "ui"
+  ],
+  "homepage": "https://github.com/rokinsky/sdk/tree/master/packages/ui#readme",
+  "bugs": {
+    "url": "https://github.com/rokinsky/sdk/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rokinsky/sdk.git"
+  },
+  "author": "Aleksander Sorokin <ankezy@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.tsx",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "build": "microbundle-crl --format modern,cjs",
+    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "test": "run-s test:unit test:lint test:build",
+    "test:build": "run-s build",
+    "test:lint": "eslint . --fix",
+    "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
+    "test:watch": "react-scripts test --env=jsdom"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0"
+  },
+  "dependencies": {
+    "clsx": "^1.1.1"
+  },
+  "devDependencies": {
+    "@rokinsky/eslint-config": "^1.0.0",
+    "@rokinsky/prettier-config": "^1.0.0",
+    "@rokinsky/tsconfig": "^1.0.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.2.2",
+    "@types/css-modules": "^1.0.1",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.14.0",
+    "microbundle-crl": "^0.13.11",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1",
+    "sass": "^1.29.0",
+    "typescript": "^4.1.2"
+  },
+  "prettier": "@rokinsky/prettier-config",
+  "files": [
+    "dist"
+  ]
+}
