@@ -1,6 +1,6 @@
 {
   "name": "@rokinsky/eslint-config",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Basic eslint configuration package",
   "keywords": [
     "eslint",
