@@ -34,10 +34,16 @@
   ],
   "root": true,
   "rules": {
-    "@typescript-eslint/interface-name-prefix": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/interface-name-prefix": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/no-implicit-any-catch": 2,
+    "@typescript-eslint/consistent-type-definitions": [2, "interface"],
+    "@typescript-eslint/prefer-as-const": 2,
+    "@typescript-eslint/prefer-optional-chain": 2,
+    "@typescript-eslint/prefer-ts-expect-error": 2,
+    "@typescript-eslint/no-var-requires": 2,
     "@typescript-eslint/no-unused-vars": [
       2,
       {
@@ -47,6 +53,12 @@
         "varsIgnorePattern": "^_"
       }
     ],
+    "no-array-constructor": 0,
+    "eol-last": 2,
+    "require-atomic-updates": 2,
+    "dot-notation": 2,
+    "eqeqeq": 2,
+    "no-unsafe-optional-chaining": 2,
     "func-style": 2,
     "import/order": [
       2,
