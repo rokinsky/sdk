@@ -35,6 +35,14 @@
   "root": true,
   "rules": {
     "@typescript-eslint/array-type": 2,
+    "@typescript-eslint/prefer-reduce-type-parameter": 2,
+    "@typescript-eslint/prefer-includes": 2,
+    "@typescript-eslint/prefer-readonly": 2,
+    "@typescript-eslint/switch-exhaustiveness-check": 2,
+    "@typescript-eslint/no-unnecessary-boolean-literal-compare": 2,
+    "@typescript-eslint/no-throw-literal": 2,
+    "@typescript-eslint/no-unnecessary-type-constraint": 2,
+    "@typescript-eslint/return-await": 2,
     "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/explicit-module-boundary-types": 0,
@@ -54,6 +62,8 @@
         "varsIgnorePattern": "^_"
       }
     ],
+    "no-throw-literal": 0,
+    "no-return-await": 0,
     "no-array-constructor": 0,
     "eol-last": 2,
     "require-atomic-updates": 2,
