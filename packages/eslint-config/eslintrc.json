@@ -35,24 +35,15 @@
   "root": true,
   "rules": {
     "@typescript-eslint/array-type": 2,
-    "@typescript-eslint/prefer-reduce-type-parameter": 2,
-    "@typescript-eslint/prefer-includes": 2,
-    "@typescript-eslint/prefer-readonly": 2,
-    "@typescript-eslint/switch-exhaustiveness-check": 2,
-    "@typescript-eslint/no-unnecessary-boolean-literal-compare": 2,
-    "@typescript-eslint/no-throw-literal": 2,
-    "@typescript-eslint/no-unnecessary-type-constraint": 2,
-    "@typescript-eslint/return-await": 2,
-    "@typescript-eslint/interface-name-prefix": 0,
+    "@typescript-eslint/consistent-type-definitions": [2, "interface"],
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/no-explicit-any": 2,
     "@typescript-eslint/no-implicit-any-catch": 2,
-    "@typescript-eslint/consistent-type-definitions": [2, "interface"],
-    "@typescript-eslint/prefer-as-const": 2,
-    "@typescript-eslint/prefer-optional-chain": 2,
-    "@typescript-eslint/prefer-ts-expect-error": 2,
-    "@typescript-eslint/no-var-requires": 2,
+    "@typescript-eslint/no-throw-literal": 2,
+    "@typescript-eslint/no-unnecessary-boolean-literal-compare": 2,
+    "@typescript-eslint/no-unnecessary-type-constraint": 2,
     "@typescript-eslint/no-unused-vars": [
       2,
       {
@@ -62,14 +53,19 @@
         "varsIgnorePattern": "^_"
       }
     ],
-    "no-throw-literal": 0,
-    "no-return-await": 0,
-    "no-array-constructor": 0,
-    "eol-last": 2,
-    "require-atomic-updates": 2,
+    "@typescript-eslint/no-var-requires": 2,
+    "@typescript-eslint/prefer-as-const": 2,
+    "@typescript-eslint/prefer-includes": 2,
+    "@typescript-eslint/prefer-optional-chain": 2,
+    "@typescript-eslint/prefer-readonly": 2,
+    "@typescript-eslint/prefer-reduce-type-parameter": 2,
+    "@typescript-eslint/prefer-string-starts-ends-with": 2,
+    "@typescript-eslint/prefer-ts-expect-error": 2,
+    "@typescript-eslint/return-await": 2,
+    "@typescript-eslint/switch-exhaustiveness-check": 2,
     "dot-notation": 2,
+    "eol-last": 2,
     "eqeqeq": 2,
-    "no-unsafe-optional-chaining": 2,
     "func-style": 2,
     "import/order": [
       2,
@@ -96,9 +92,14 @@
         }
       }
     ],
+    "no-array-constructor": 0,
+    "no-return-await": 0,
+    "no-throw-literal": 0,
+    "no-unsafe-optional-chaining": 2,
+    "prettier/prettier": 2,
     "react/prop-types": 0,
     "react/react-in-jsx-scope": 0,
-    "prettier/prettier": 2
+    "require-atomic-updates": 2
   },
   "settings": {
     "import/resolver": {
