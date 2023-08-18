@@ -40,7 +40,6 @@
     "@typescript-eslint/explicit-module-boundary-types": 0,
     "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/no-explicit-any": 2,
-    "@typescript-eslint/no-implicit-any-catch": 2,
     "@typescript-eslint/no-throw-literal": 2,
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": 2,
     "@typescript-eslint/no-unnecessary-type-constraint": 2,
