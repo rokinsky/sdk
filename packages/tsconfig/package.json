@@ -1,6 +1,6 @@
 {
   "name": "@rokinsky/tsconfig",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Basic TypeScript configuration package",
   "keywords": [
     "sdk",
@@ -28,7 +28,7 @@
     "README.md"
   ],
   "peerDependencies": {
-    "typescript": ">=4.3.2 <5.0.0"
+    "typescript": ">=5.1.6 <6.0.0"
   },
   "publishConfig": {
     "access": "public"
